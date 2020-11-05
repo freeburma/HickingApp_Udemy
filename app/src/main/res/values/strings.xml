@@ -1,0 +1,5 @@
+<resources>
+    <string name = "app_name">Map</string>
+    <string name = "title_activity_map_demo__google_map">Map</string>
+    <string name = "title_activity_track_user_location">Map</string>
+</resources>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:app = "http://schemas.android.com/apk/res-auto"
+    xmlns:tools = "http://schemas.android.com/tools"
+    android:layout_width = "match_parent"
+    android:layout_height = "match_parent"
+    tools:context = ".HickingApp">
+
+    <ImageView
+        android:id = "@+id/backgroundImageView"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:scaleType = "centerCrop"
+        app:layout_constraintBottom_toBottomOf = "parent"
+        app:layout_constraintEnd_toEndOf = "parent"
+        app:layout_constraintStart_toStartOf = "parent"
+        app:layout_constraintTop_toTopOf = "parent"
+        app:srcCompat = "@drawable/hickingappbg" />
+
+    <TextView
+        android:id = "@+id/headingTextView"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:layout_marginTop = "40dp"
+        android:text = "Hiker's Watch"
+        android:textColor = "#fff"
+        android:textSize = "36sp"
+        android:textStyle = "bold"
+        app:layout_constraintLeft_toLeftOf = "parent"
+
+        app:layout_constraintRight_toRightOf = "parent"
+        app:layout_constraintTop_toTopOf = "parent" />
+
+    <LinearLayout
+        android:layout_width = "match_parent"
+        android:layout_height = "match_parent"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart = "32dp"
+        android:layout_marginEnd = "32dp"
+        android:orientation = "vertical"
+        app:layout_constraintEnd_toEndOf = "parent"
+        app:layout_constraintStart_toStartOf = "parent"
+        app:layout_constraintTop_toTopOf = "@id/headingTextView">
+
+        <TextView
+            android:id = "@+id/latitudeTextView"
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            android:layout_marginTop = "5dp"
+            android:layout_marginBottom = "5dp"
+            android:text = "Latitude :"
+            android:textColor = "#fff"
+            android:textSize = "24sp" />
+
+        <TextView
+            android:id = "@+id/longitudeTextView"
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            android:layout_marginTop = "5dp"
+            android:layout_marginBottom = "5dp"
+            android:text = "Longitude :"
+            android:textColor = "#fff"
+            android:textSize = "24sp" />
+
+        <TextView
+            android:id = "@+id/accuracyTextView"
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            android:layout_marginTop = "5dp"
+            android:layout_marginBottom = "5dp"
+            android:text = "Accuracy : "
+            android:textColor = "#fff"
+            android:textSize = "24sp" />
+
+        <TextView
+            android:id = "@+id/altitudeTextView"
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            android:layout_marginTop = "5dp"
+            android:layout_marginBottom = "5dp"
+            android:text = "Altitude : "
+            android:textColor = "#fff"
+            android:textSize = "24sp" />
+
+        <TextView
+            android:id = "@+id/addressTextView"
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            android:layout_marginTop = "5dp"
+            android:layout_marginBottom = "5dp"
+            android:text = "Address : "
+            android:textColor = "#fff"
+            android:textSize = "24sp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

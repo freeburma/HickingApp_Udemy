@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:app = "http://schemas.android.com/apk/res-auto"
+    xmlns:tools = "http://schemas.android.com/tools"
+    android:layout_width = "match_parent"
+    android:layout_height = "match_parent"
+    tools:context = ".MainActivity">
+
+
+    <Button
+        android:id = "@+id/button"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:layout_marginTop = "50dp"
+        android:text = "Go To Map 1 Demo"
+        app:layout_constraintEnd_toEndOf = "parent"
+        app:layout_constraintStart_toStartOf = "parent"
+        app:layout_constraintTop_toTopOf = "parent"
+        android:onClick="GoToMap_1_Demo"
+        />
+
+    <Button
+        android:id = "@+id/locationDemoButton"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:layout_marginTop = "50dp"
+        android:text = "Go To Location Demo"
+        app:layout_constraintEnd_toEndOf = "parent"
+        app:layout_constraintStart_toStartOf = "parent"
+        app:layout_constraintTop_toTopOf = "@+id/button"
+        android:onClick="GoToLocationDemo"
+        />
+
+    <Button
+        android:id = "@+id/trackUserLocationDemoButton"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:layout_marginTop = "50dp"
+        android:text = "Go To Track Location Demo"
+        app:layout_constraintEnd_toEndOf = "parent"
+        app:layout_constraintStart_toStartOf = "parent"
+        app:layout_constraintTop_toTopOf = "@+id/locationDemoButton"
+        android:onClick="GoToTrackUserLocationDemo"
+        />
+
+    <Button
+        android:id = "@+id/hickingAppButton"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:layout_marginTop = "50dp"
+        android:text = "Go Hicking App"
+        app:layout_constraintEnd_toEndOf = "parent"
+        app:layout_constraintStart_toStartOf = "parent"
+        app:layout_constraintTop_toTopOf = "@+id/trackUserLocationDemoButton"
+        android:onClick="GoToHickingApp"
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
