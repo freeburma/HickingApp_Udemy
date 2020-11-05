@@ -8,41 +8,6 @@
     tools:context = ".MainActivity">
 
 
-    <Button
-        android:id = "@+id/button"
-        android:layout_width = "wrap_content"
-        android:layout_height = "wrap_content"
-        android:layout_marginTop = "50dp"
-        android:text = "Go To Map 1 Demo"
-        app:layout_constraintEnd_toEndOf = "parent"
-        app:layout_constraintStart_toStartOf = "parent"
-        app:layout_constraintTop_toTopOf = "parent"
-        android:onClick="GoToMap_1_Demo"
-        />
-
-    <Button
-        android:id = "@+id/locationDemoButton"
-        android:layout_width = "wrap_content"
-        android:layout_height = "wrap_content"
-        android:layout_marginTop = "50dp"
-        android:text = "Go To Location Demo"
-        app:layout_constraintEnd_toEndOf = "parent"
-        app:layout_constraintStart_toStartOf = "parent"
-        app:layout_constraintTop_toTopOf = "@+id/button"
-        android:onClick="GoToLocationDemo"
-        />
-
-    <Button
-        android:id = "@+id/trackUserLocationDemoButton"
-        android:layout_width = "wrap_content"
-        android:layout_height = "wrap_content"
-        android:layout_marginTop = "50dp"
-        android:text = "Go To Track Location Demo"
-        app:layout_constraintEnd_toEndOf = "parent"
-        app:layout_constraintStart_toStartOf = "parent"
-        app:layout_constraintTop_toTopOf = "@+id/locationDemoButton"
-        android:onClick="GoToTrackUserLocationDemo"
-        />
 
     <Button
         android:id = "@+id/hickingAppButton"
@@ -52,7 +17,7 @@
         android:text = "Go Hicking App"
         app:layout_constraintEnd_toEndOf = "parent"
         app:layout_constraintStart_toStartOf = "parent"
-        app:layout_constraintTop_toTopOf = "@+id/trackUserLocationDemoButton"
+        app:layout_constraintTop_toTopOf = "parent"
         android:onClick="GoToHickingApp"
         />
 

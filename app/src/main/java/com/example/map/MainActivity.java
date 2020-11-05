@@ -17,25 +17,7 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
     }
 
-    public void GoToMap_1_Demo (View view)
-    {
 
-        Intent intent = new Intent(this, MapDemo_GoogleMap.class);
-        startActivity(intent);
-
-    }// end GoToMap_1_Demo()
-
-    public void GoToLocationDemo (View view)
-    {
-        Intent intent = new Intent(this, LocationDemo.class);
-        startActivity(intent);
-    }
-
-    public void GoToTrackUserLocationDemo (View view)
-    {
-        Intent intent = new Intent(this, TrackUserLocation.class);
-        startActivity(intent);
-    }
 
     public void GoToHickingApp (View view)
     {
